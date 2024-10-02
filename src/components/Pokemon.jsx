@@ -10,7 +10,7 @@ function Pokemon() {
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage] = useState(20); // Set items per page
 
-    const API = `https://pokeapi.co/api/v2/pokemon?limit=500&offset=${(currentPage - 1) * itemsPerPage}`; // Increased limit for pagination
+    const API = `https://pokeapi.co/api/v2/pokemon?limit=100`; // Increased limit for pagination
 
     const fetchPokemon = async () => {
         try {
