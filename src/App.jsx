@@ -1,5 +1,4 @@
-import { Pokemon } from "./components";
-import GitHubLink from "./components/GitHubLink";
+import { GitHubLink, Pokemon } from "./components";
 
 function App() {
   return (

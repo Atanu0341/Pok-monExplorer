@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PokemonCards from './PokemonCards';
+import Spinner from './Spinner';
 
 function Pokemon() {
     const [pokemon, setPokemon] = useState([]);
@@ -60,7 +61,7 @@ function Pokemon() {
     };
 
     if (loading) {
-        return <h1 className="text-2xl font-bold text-center text-gray-500 mt-48">Loading...</h1>;
+        return <Spinner />;
     }
 
     if (error) {

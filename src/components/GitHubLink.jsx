@@ -4,7 +4,7 @@ const GitHubLink = () => {
   return (
     <div className="fixed top-4 right-4">
       <a
-        href="https://github.com/yourusername/your-repo-name" // Replace with your GitHub URL
+        href="https://github.com/Atanu0341/Pok-monExplorer" // Replace with your GitHub URL
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center text-gray-800 hover:text-gray-600 transition duration-200"
